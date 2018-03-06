@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "train.py", line 7, in <module>
+    import mxnet as mx
+  File "/usr/local/lib/python2.7/dist-packages/mxnet-0.9.1-py2.7-linux-x86_64.egg/mxnet/__init__.py", line 7, in <module>
+    from .base import MXNetError
+  File "/usr/local/lib/python2.7/dist-packages/mxnet-0.9.1-py2.7-linux-x86_64.egg/mxnet/base.py", line 43, in <module>
+    _LIB = _load_lib()
+  File "/usr/local/lib/python2.7/dist-packages/mxnet-0.9.1-py2.7-linux-x86_64.egg/mxnet/base.py", line 35, in _load_lib
+    lib = ctypes.CDLL(lib_path[0], ctypes.RTLD_GLOBAL)
+  File "/usr/lib/python2.7/ctypes/__init__.py", line 365, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libopencv_imgcodecs.so.3.1: cannot open shared object file: No such file or directory
