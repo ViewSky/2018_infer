@@ -1,4 +1,4 @@
-# 2018_infer
+# 2018_Reasoning
 # 2018年刑侦科目推理试题
 ## How to use>>>
     
